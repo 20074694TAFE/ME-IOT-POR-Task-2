@@ -10,5 +10,5 @@ classDiagram
     LocationEvents : +string location
     LocationEvents : +list~Event~ eventList
     LocationEvents : +__init__(location, eventList = [])
-    LocationEvents o-- Event
+    LocationEvents "0..*" o-- Event
 ```
