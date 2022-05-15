@@ -5,11 +5,11 @@ class Event:
     timestamp = "Today"
     # Boolean
     presence = False
-    # Float List
-    sensor_values = [1.0, 2.0, 1.1]
+    # Float
+    sensor_temperature = 30.0
 
     def __str__(self):
-        return "Location = " + self.location + " | Timestamp = " + self.timestamp + " | Presence = " + str(self.presence) + " | Sensor Values are equal to: " + str(self.sensor_values)
+        return "Location = " + self.location + " | Timestamp = " + self.timestamp + " | Presence = " + str(self.presence) + " | Sensor Temperature equal to: " + str(self.sensor_temperature)
 
 
 if __name__ == '__main__':
