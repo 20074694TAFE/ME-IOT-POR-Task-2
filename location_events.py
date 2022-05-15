@@ -1,3 +1,4 @@
+from xxlimited import Str
 from event import Event 
 
 class LocationEvents:
@@ -6,9 +7,9 @@ class LocationEvents:
 
     #eventList = []
 
-    def __init__(self, location : str, eventList : list[Event] = []):
+    def __init__(self, location : Str):
         self.location = location
-        self.eventList = eventList
+        self.eventList = []
 
 
 if __name__ == '__main__':
