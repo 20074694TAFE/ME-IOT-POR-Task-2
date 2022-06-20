@@ -1,4 +1,5 @@
 class Event:
+    '''Create an event class with location string, timestamp string, presence boolean as well as temperature float'''
     # String
     location = "Home"
     # String
